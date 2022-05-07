@@ -1,0 +1,44 @@
+
+.caja{
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+nav{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.header__list-nav{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+.header__link{
+    margin: 0 0 0 15px; 
+}
+.card__title{
+    margin-left: 200px;
+}
+form{
+    margin-left: 200px;
+}
+form label{
+    display: block;
+    font-size: 20px; 
+    margin: 0 0 10px;
+}
+
